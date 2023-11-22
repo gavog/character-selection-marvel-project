@@ -1,0 +1,39 @@
+@keyframes c-glowing-blue {
+    0% {
+      box-shadow: 0 0 5px var(--color-faint-blue), 0 0 5px var(--color-faint-blue), 0 0 15px var(--color-faint-blue), 0 0 20px var(--color-blue), 0 0 10px var(--color-blue), 0 0 10px var(--color-blue), 0 0 10px var(--color-blue), 0 0 10px var(--color-blue)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--color-faint-blue), 0 0 2.5px var(--color-faint-blue), 0 0 7.5px var(--color-faint-blue), 0 0 10px var(--color-blue), 0 0 5px var(--color-blue), 0 0 5px var(--color-blue), 0 0 5px var(--color-blue), 0 0 2px var(--color-blue)
+    }
+  }
+  
+  @keyframes c-glowing-red {
+    0% {
+      box-shadow: 0 0 5px var(--color-faint-brown), 0 0 5px var(--color-faint-brown), 0 0 15px var(--color-faint-brown), 0 0 20px var(--color-red), 0 0 10px var(--color-red), 0 0 10px var(--color-red), 0 0 10px var(--color-red), 0 0 10px var(--color-red)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--color-faint-brown), 0 0 2.5px var(--color-faint-brown), 0 0 7.5px var(--color-faint-brown), 0 0 10px var(--color-red), 0 0 5px var(--color-red), 0 0 5px var(--color-red), 0 0 5px var(--color-red), 0 0 2px var(--color-red)
+    }
+  }
+  
+  @keyframes text-glowing-blue {
+    0% {
+      text-shadow: 0 0 1px var(--color-primary), 0 0 1px var(--color-primary), 0 0 1px var(--color-primary), 0 0 1px var(--color-blue), 0 0 5px var(--color-blue), 0 0 2px var(--color-blue), 0 0 10px var(--color-blue), 0 0 10px var(--color-blue)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--color-primary), 0 0 .5px var(--color-primary), 0 0 .5px var(--color-primary), 0 0 .5px var(--color-blue), 0 0 5px var(--color-blue), 0 0 .5px var(--color-blue), 0 0 5px var(--color-blue), 0 0 2px var(--color-blue)
+    }
+  }
+  
+  @keyframes text-glowing-red {
+    0% {
+      text-shadow: 0 0 1px var(--color-faint-brown), 0 0 1px var(--color-faint-brown), 0 0 1px var(--color-faint-brown), 0 0 1px var(--color-faint-red), 0 0 5px var(--color-faint-red), 0 0 2px var(--color-faint-red), 0 0 10px var(--color-faint-red), 0 0 10px var(--color-faint-red)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--color-faint-brown), 0 0 .5px var(--color-faint-brown), 0 0 .5px var(--color-faint-brown), 0 0 .5px var(--color-faint-red), 0 0 5px var(--color-faint-red), 0 0 .5px var(--color-faint-red), 0 0 5px var(--color-faint-red), 0 0 2px var(--color-faint-red)
+    }
+  }

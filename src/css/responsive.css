@@ -1,0 +1,43 @@
+@media (max-width:1280px){
+    .header .tittle {
+        font-size: 40px
+    }
+
+    .character-select .character-list {
+        max-width: 330px;
+    }
+
+    .character-select .character-list .character {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px){
+    body::before {
+        background-image: url("../images/bg-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+    }
+
+    main {
+        padding: 0 5px;
+        justify-content: start;
+    }
+
+    .header .tittle {
+        font-size: 22px;
+    }
+
+    /* .character-select .selected-character {
+
+    } */
+}
+
+@media (max-width: 360px){
+    .header .tittle {
+        font-size: 19px;
+    }
+}
